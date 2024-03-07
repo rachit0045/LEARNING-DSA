@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-    int a,b;
+    int a,b,sum;
     cout<<"enter the value of a :";
     cin>>a;
     cout<<"enter the value of b";
     cin>>b;
-    return 0;
+    sum= a+b;
+    cout<<"sum is :"<<sum;
+    return 0 ;
 }
