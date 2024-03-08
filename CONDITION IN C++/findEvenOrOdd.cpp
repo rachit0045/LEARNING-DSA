@@ -1,17 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int number;
-    cout<<"enter the number:";
-    cin>>number;
-    if (number%2==0)
+    int num;
+    cout << "enter the number:";
+    cin >> num;
+    if (num % 2 == 0)
     {
-        cout<<"This is even number.";
+        cout << num << " is even number." << endl;
     }
-    else{
-        cout<<"This is not even number.";
+    else
+    {
+        cout << num << " is not even number." << endl;
     }
     return 0;
-    
 }

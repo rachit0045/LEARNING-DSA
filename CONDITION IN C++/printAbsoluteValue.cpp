@@ -9,6 +9,6 @@ int main()
     {
         num = (-num);
     }
-    cout<<"Absolute value is :"<<num<<endl;
+    cout << "Absolute value is :" << num << endl;
     return 0;
 }
