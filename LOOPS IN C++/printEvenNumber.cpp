@@ -1,15 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    cout<<"the even numbers from 1 to 100 :"<<endl;
-    for (int i = 1; i < 100; i++)
+    cout << "the even numbers from 1 to 100 :" << endl;
+    for (int i = 1; i <= 100; i++)
     {
-        if (i%2==0)
+        if (i % 2 == 0)
         {
-            cout<<i<<endl;
+            cout << i << endl;
         }
-        
     }
-    
 }
