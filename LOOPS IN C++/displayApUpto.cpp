@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "enter the number of term";
+    cout << "enter the number of term :";
     cin >> n;
     int firstterm = 4;
     int commondifference = 3;
