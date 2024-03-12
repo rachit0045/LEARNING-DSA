@@ -10,7 +10,8 @@ int main()
     cout << "Arthmetic progression :";
     for (int i = 0; i < n; i++)
     {
-        cout << firstterm + i * commondifference;
+        int term = firstterm + i * commondifference;
+        cout<<term;
         if (i != n - 1)
         {
             cout << ",";
