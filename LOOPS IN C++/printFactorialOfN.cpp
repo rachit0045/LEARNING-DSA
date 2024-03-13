@@ -10,6 +10,6 @@ int main()
     {
         factorial *= i;
     }
-    cout << "Factorial of" << num << "is :" <<factorial<< endl;
+    cout << "Factorial of" << num << "is :" << factorial << endl;
     return 0;
 }
