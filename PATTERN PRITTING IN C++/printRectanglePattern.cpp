@@ -2,11 +2,8 @@
 using namespace std;
 int main()
 {
-    int r, c;
-    cout << "enter the row :";
-    cin >> r;
-    cout << "enter the column :";
-    cin >> c;
+    int r = 3;
+    int c = 6;
     for (int i = 1; i <= r; i++)
     {
         for (int j = 1; j <= c; j++)
