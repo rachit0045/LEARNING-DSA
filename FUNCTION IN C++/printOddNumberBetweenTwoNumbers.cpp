@@ -7,7 +7,7 @@ int oddnumber(int a, int b)
     {
         if (i % 2 != 0)
         {
-            cout << i << ",";
+            cout << i << " ";
         }
     }
 }
