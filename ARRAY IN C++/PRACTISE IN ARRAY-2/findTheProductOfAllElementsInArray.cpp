@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[100], size, x;
+    int arr[100], size;
     cout << "Enter the size of array :";
     cin >> size;
     cout << "Enter the elements of array :";
@@ -10,17 +10,11 @@ int main()
     {
         cin >> arr[i];
     }
-    cout << "Enter the number 'x' :";
-    cin >> x;
-    int count = 0;
+    int product = 1;
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] > x)
-        {
-            count++;
-        }
+        product *= arr[i];
     }
-
-    cout << count << " elements is grater than " << x << " in array ." << endl;
+    cout << "Product of all elements of array is " << product << endl;
     return 0;
 }
