@@ -5,7 +5,7 @@ int main()
     int arr[100], size, x;
     cout << "Enter the size of array :";
     cin >> size;
-    cout<<"Enter the elements of array :";
+    cout << "Enter the elements of array :";
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
@@ -23,6 +23,7 @@ int main()
             }
         }
     }
-    cout << " Doublet in the Array whose sum is equal to " << x <<" are : "<< doublet << endl;
+    cout << " Doublet in the Array whose sum is equal to " << x << " are : " << doublet << endl;
+
     return 0;
 }
