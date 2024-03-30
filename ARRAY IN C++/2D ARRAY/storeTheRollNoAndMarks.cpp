@@ -16,13 +16,13 @@ int main()
         cin >> matrix[i][1];
         cout << endl;
     }
-    cout << "Roll Number\tmarks "<<endl;
-    cout << "-----------------------"<<endl;
+    cout << "Roll Number\tmarks " << endl;
+    cout << "-----------------------" << endl;
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            cout << matrix[i][j]<<"\t\t";
+            cout << matrix[i][j] << "\t\t";
         }
         cout << endl;
     }
