@@ -6,7 +6,7 @@ int main()
     int arr[100], size, k;
     cout << "Enter the size of the array: ";
     cin >> size;
-    cout<<"Enter the array elements :";
+    cout << "Enter the array elements :";
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
