@@ -36,10 +36,10 @@ int main()
         v.push_back(ele);
     }
     sortZeroesAndOnes(v);
-    cout<<"The sorted array is : ";
+    cout << "The sorted array is : ";
     for (int i = 0; i < size; i++)
     {
-        cout << v[i]<<" ";
+        cout << v[i] << " ";
     }
 
     return 0;
