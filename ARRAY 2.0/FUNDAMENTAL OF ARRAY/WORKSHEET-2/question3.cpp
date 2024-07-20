@@ -34,5 +34,5 @@ int main()
         cout << "The array does not contain duplicates." << endl;
     }
 
-return 0;
+    return 0;
 }
